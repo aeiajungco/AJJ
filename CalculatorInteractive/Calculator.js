@@ -1,6 +1,7 @@
 var num1 = document.getElementById("num1");
 var num2 = document.getElementById("num2");
 var plus = document.getElementById("add");
+
 var subtract = document.getElementById("subtract");
 var multiply = document.getElementById("multiply");
 var divide = document.getElementById("divide");
