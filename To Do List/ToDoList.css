@@ -1,0 +1,103 @@
+body {
+  background-color: rgb(39, 39, 39);
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  cursor: pointer;
+  position: relative;
+  color: rgb(251, 255, 0);
+  font-size: 18px;
+  transition: 0.2s;
+  list-style: none;
+  width: 60%;
+  margin: auto;
+}
+
+ul li.done {
+  color: rgb(0, 0, 0);
+  text-decoration: line-through;
+}
+
+ul li:hover {
+  color: rgb(54, 54, 54);
+}
+
+.remove {
+  font-size: medium;
+  font-weight: lighter;
+  color: rgb(251, 255, 0);
+  float: right;
+  background: none;
+  border: none;
+}
+
+.remove:hover {
+  color: red;
+  text-decoration-line: underline;
+}
+
+.header {
+  padding: 30px;
+  color: rgb(251, 255, 0);
+  text-align: center;
+}
+
+.header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+input {
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  width: 75%;
+  padding: 5px;
+  font-size: 16px;
+  background-color: rgba(243, 243, 243, 0);
+  border-bottom-style: solid;
+  border-bottom-width: thin;
+  border-bottom-color: rgb(251, 255, 0);
+  color: rgb(251, 255, 0);
+}
+
+input::after {
+  border: none;
+}
+
+::placeholder {
+  color: rgba(251, 255, 0, 0.438);
+}
+
+#addBtn {
+  padding: 5px;
+  width: 4em;
+  background: rgb(0, 0, 0);
+  color: rgb(251, 255, 0);
+  text-align: center;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 0;
+  border: none;
+}
+
+#addBtn:hover {
+  background-color: rgb(251, 255, 0);
+  transition: 0.1s;
+  color: black;
+}
+
+#toDo {
+  width: 50%;
+  align-content: center;
+  margin: auto;
+  border-style: double;
+  height: 42em;
+  background-color: rgba(139, 139, 139, 0.486);
+}
